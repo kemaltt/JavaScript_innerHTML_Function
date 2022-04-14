@@ -4,30 +4,30 @@
 
 //Lev1_2
 //==================================
-// document.getElementById('info').innerHTML = ' <h1>Hallo Welt</h1>'
-// document.getElementById('info').innerHTML += '<h2>Wie geht es dir?</h2>'
+document.getElementById('info').innerHTML = ' <h1>Hallo Welt</h1>'
+document.getElementById('info').innerHTML += '<h2>Wie geht es dir?</h2>'
 
-// document.getElementById('container').innerHTML = '<p>start of the element</p>'
+document.getElementById('container').innerHTML = '<p>start of the element</p>'
 
-// document.write("end of the element")
+document.write("end of the element")
 
 //Lev1_3
 //====================================
 
-// let gallery = document.getElementById('gallery')
-// console.log(gallery);
-// gallery.innerHTML = ` <figure>
-// <img src="https://images.unsplash.com/photo-1649887167821-d1c3085e2c47?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="Fig1" >
-// <figcaption>Fig.1</figcaption>
-// </figure>`
-// gallery.innerHTML += `<figure>
-// <img src="https://images.unsplash.com/photo-1649887167821-d1c3085e2c47?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="Fig1" >
-// <figcaption>Fig.1</figcaption>
-// </figure>`
-// gallery.innerHTML += `<figure>
-// <img src="https://images.unsplash.com/photo-1649887167821-d1c3085e2c47?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="Fig1">
-// <figcaption>Fig.1</figcaption>
-// </figure>`
+let gallery = document.getElementById('gallery')
+console.log(gallery);
+gallery.innerHTML = ` <figure>
+<img src="https://images.unsplash.com/photo-1649887167821-d1c3085e2c47?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="Fig1" >
+<figcaption>Fig.1</figcaption>
+</figure>`
+gallery.innerHTML += `<figure>
+<img src="https://images.unsplash.com/photo-1649887167821-d1c3085e2c47?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="Fig1" >
+<figcaption>Fig.2</figcaption>
+</figure>`
+gallery.innerHTML += `<figure>
+<img src="https://images.unsplash.com/photo-1649887167821-d1c3085e2c47?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="Fig1">
+<figcaption>Fig.3</figcaption>
+</figure>`
 
 // Function=======================================
 
