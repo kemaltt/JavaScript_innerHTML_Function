@@ -1,13 +1,15 @@
-//innerHTML=====================================================
+// innerHTML & Function==========================================
+
+//innerHTML============================
 
 //Lev1_2
 //==================================
-// document.getElementById('info').innerHTML = ' <h1>Hallo Welt</h1>'
-// document.getElementById('info').innerHTML = ' <h1>Hallo Welt</h1>   <h2>Wie geht es dir?</h2>'
+document.getElementById('info').innerHTML = ' <h1>Hallo Welt</h1>'
+document.getElementById('info').innerHTML += '<h2>Wie geht es dir?</h2>'
 
-// document.getElementById('container').innerHTML = '<p>start of the element</p>'
+document.getElementById('container').innerHTML = '<p>start of the element</p>'
 
-// document.write("end of the element")
+document.write("end of the element")
 
 //Lev1_3
 //====================================
